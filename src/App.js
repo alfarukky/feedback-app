@@ -9,6 +9,7 @@ import AboutIconLink from './components/AboutIconLink';
 
 function App() {
   return (
+    //We wrape all the element in a provider in other to use the context api.
     <FeedbackProvider>
       <Router>
         <Header />
